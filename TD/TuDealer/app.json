@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "my-app",
+    "slug": "my-app",
+    "owner": "ecuadra",
+    "scheme": "acme",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.tuusuario.myapp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "output": "static",
+      "favicon": "../../../../assets/logo.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://n"
+        }
+      ],
+      "expo-video"
+    ],
+    "extra": {
+      "router": {
+        "origin": "https://n"
+      },
+      "eas": {
+        "projectId": "169f1e77-3769-42dc-98fa-6140495c27f6"
+      }
+    }
+  }
+}
